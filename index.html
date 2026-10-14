@@ -1,0 +1,10 @@
+<script>
+    // Obtiene la ruta y extensión actual (ej: /contacto.html o /blog/articulo.php)
+    const rutaActual = window.location.pathname + window.location.search + window.location.hash;
+    
+    // Define el nuevo dominio de destino
+    const nuevoDominio = "https://mcrp.com.es";
+    
+    // Ejecuta la redirección instantánea
+    window.location.replace(nuevoDominio + rutaActual);
+</script>
